@@ -1,0 +1,32 @@
+{
+  "name": "pi-opencode-go-usage",
+  "version": "1.0.0",
+  "description": "Pi command that shows OpenCode Go usage limits as a horizontal bar chart",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "opencode",
+    "opencode-go",
+    "usage"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiprnm/pi-opencode-go-usage.git"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/opencode-go-usage.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
